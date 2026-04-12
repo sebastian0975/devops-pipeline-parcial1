@@ -1,8 +1,8 @@
 # Evaluación Parcial N°1 – Ingeniería DevOps
 
-**Encargo:** Tu primer pipeline de despliegue
-**Integrante:** Sebastian Gonzalez
-**Asignatura:** DOY0101 Ingeniería DevOps
+**Encargo:** Tu primer pipeline de despliegue  
+**Integrante:** Sebastian Gonzalez  
+**Asignatura:** DOY0101 Ingeniería DevOps  
 
 ---
 
@@ -12,10 +12,10 @@ Para este trabajo se utilizó el modelo **GitFlow**.
 
 Ramas usadas:
 
-* `main`
-* `develop`
-* `feature/<nombre>`
-* `hotfix/<nombre>`
+- `main`
+- `develop`
+- `feature/<nombre>`
+- `hotfix/<nombre>`
 
 Se eligió GitFlow porque permite separar lo que está en desarrollo de lo que ya está listo, y así trabajar de forma más ordenada.
 
@@ -52,8 +52,8 @@ Luego se hace pull request hacia `main`.
 
 Cambios realizados:
 
-* 2 features (`login`, `registro`)
-* 1 hotfix (`bug-login`)
+- 2 features (`login`, `registro`)
+- 1 hotfix (`bug-login`)
 
 ---
 
@@ -61,8 +61,8 @@ Cambios realizados:
 
 Se configuró un flujo simple:
 
-* Push a `develop` → se ejecuta el pipeline
-* Pull request a `main` → se valida antes de hacer merge
+- Push a `develop` → se ejecuta el pipeline  
+- Pull request a `main` → se valida antes de hacer merge  
 
 Esto sirve para revisar cambios antes de dejarlos en la versión final.
 
@@ -99,37 +99,37 @@ Esto permite que cada cambio se ejecute automáticamente.
 
 Naming de ramas:
 
-* feature/login
-* feature/registro
-* hotfix/bug-login
+- feature/login  
+- feature/registro  
+- hotfix/bug-login  
 
 Commits:
 
-* feat: nueva funcionalidad
-* fix: corrección de error
-* docs: cambios en documentación
-* ci: cambios en pipeline
+- feat: nueva funcionalidad  
+- fix: corrección de error  
+- docs: cambios en documentación  
+- ci: cambios en pipeline  
 
 Ejemplos:
 
-* feat: agregar login
-* fix: corregir error login
+- feat: agregar login  
+- fix: corregir error login  
 
 Estructura del repositorio:
 
-/src
-/docs
-/tests
-/.github/workflows
-README.md
+/src  
+/docs  
+/tests  
+/.github/workflows  
+README.md  
 
 Flujo de trabajo:
 
-* feature → develop
-* hotfix → main y develop
+- feature → develop  
+- hotfix → main y develop  
 
 Revisión:
 
-* uso de pull request
-* revisar antes de hacer merge
-* validación automática
+- uso de pull request  
+- revisar antes de hacer merge  
+- validación automática  
