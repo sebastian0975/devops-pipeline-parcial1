@@ -133,4 +133,4 @@ Revisión:
 - uso de pull request  
 - revisar antes de hacer merge  
 - validación automática  
-Cambio en login
+Cambio en registro
